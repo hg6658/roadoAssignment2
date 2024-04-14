@@ -1,0 +1,23 @@
+/* SideMenu.css */
+.side-menu {
+    width: 250px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    transition: transform 0.3s ease;
+    transform: translateX(-250px); /* Initially hide the side menu */
+  }
+  
+  .side-menu.open {
+    transform: translateX(0); /* Show the side menu */
+  }
+  
+  .close-menu-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  

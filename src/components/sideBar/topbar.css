@@ -1,0 +1,13 @@
+.topBar-sidebar h1{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 24px;
+  } 
+
+.topBar-sidebar{
+    padding: 25px;
+}
+.topBar-sidebar span{
+    display: block;
+    color: #ccc;
+}

@@ -1,0 +1,28 @@
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.card{
+    width: 160px;
+    height: 120px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+}
+
+.card p{
+    font-family: Roboto;
+    font-weight: 500;
+    font-size: 12px;
+    color:#676666;
+
+}
+
+.card .mega{
+    font-size: 16px;
+}

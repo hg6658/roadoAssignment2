@@ -1,0 +1,9 @@
+.statBar{
+    height: 24px;
+    width: 172px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    border-radius: 4px;
+}

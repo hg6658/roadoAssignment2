@@ -1,0 +1,20 @@
+.widget{
+    margin: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.inside{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: white;
+    width: 820px;
+    height: 94px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    padding: 8px;
+}
